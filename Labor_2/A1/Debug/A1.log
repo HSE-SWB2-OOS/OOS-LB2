@@ -1,0 +1,35 @@
+﻿Der Buildvorgang wurde am 12.04.2015 14:26:20 gestartet.
+     1>Projekt "C:\Users\ONiell.HELLBOY\documents\visual studio 2013\Projects\Labor 2\A1\A1.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PacMan.cpp Position.cpp Spieler.cpp
+         Spieler.cpp
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\spieler.cpp(84): error C2065: 'MAUER': nichtdeklarierter Bezeichner
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\spieler.cpp(84): fatal error C1903: Weiterverarbeitung nach vorherigem Fehler nicht möglich; Kompilierung wird abgebrochen.
+         Position.cpp
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\position.cpp(43): error C2065: 'MAUER': nichtdeklarierter Bezeichner
+         PacMan.cpp
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\labyrinth.hpp(71): error C2062: 'int'-Typ unerwartet
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\labyrinth.hpp(71): error C2334: Unerwartete(s) Token vor ':'; sichtbarer Funktionstext wird übersprungen
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\labyrinth.hpp(76): error C2143: Syntaxfehler: Es fehlt ')' vor ';'
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\labyrinth.hpp(76): error C2059: Syntaxfehler: ')'
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\labyrinth.hpp(76): error C2238: Unerwartete(s) Token vor ';'
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\mystring.hpp(3): error C2059: Syntaxfehler: 'namespace'
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\mystring.hpp(3): error C2238: Unerwartete(s) Token vor ';'
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\spieler.hpp(38): error C2079: 'Labyrinth::Spieler::lab' verwendet undefiniertes class 'Labyrinth'
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.hpp(8): error C2327: 'Labyrinth::kAnzGeister': Ist kein Typname, nicht statisch und kein Enumerator
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.hpp(8): error C2065: 'kAnzGeister': nichtdeklarierter Bezeichner
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.cpp(8): error C2059: Syntaxfehler: 'namespace'
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.cpp(8): error C2238: Unerwartete(s) Token vor ';'
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.cpp(11): error C3254: 'Labyrinth': Die Klasse enthält die explizite Überschreibung '{ctor}', wird jedoch von keiner Schnittstelle abgeleitet, die die Funktionsdeklaration enthält
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.cpp(11): error C2838: '{ctor}': Unzulässiger vollständig angegebener Name in Elementdeklaration
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.cpp(29): error C3254: 'Labyrinth': Die Klasse enthält die explizite Überschreibung 'schritt', wird jedoch von keiner Schnittstelle abgeleitet, die die Funktionsdeklaration enthält
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.cpp(29): error C2838: 'schritt': Unzulässiger vollständig angegebener Name in Elementdeklaration
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.cpp(79): error C3254: 'Labyrinth': Die Klasse enthält die explizite Überschreibung 'spielen', wird jedoch von keiner Schnittstelle abgeleitet, die die Funktionsdeklaration enthält
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.cpp(79): error C2838: 'spielen': Unzulässiger vollständig angegebener Name in Elementdeklaration
+     1>c:\users\oniell.hellboy\documents\visual studio 2013\projects\labor 2\a1\pacman.cpp(127): fatal error C1004: Unerwartetes Dateiende gefunden.
+         Code wird generiert...
+     1>Die Erstellung des Projekts "C:\Users\ONiell.HELLBOY\documents\visual studio 2013\Projects\Labor 2\A1\A1.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:00.69
